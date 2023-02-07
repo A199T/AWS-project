@@ -1,0 +1,14 @@
+ Dockerfile is simply a text file named as Dockerfile(without any extensions) 
+with some commands and rules that Docker uses to create an image. 
+It contains the steps Docker is supposed to follow to package your app.
+ In this blog, we are going to learn more about the Dockerfile commands.
+Dockerfile is a script that uses the Docker platform to generate containers automatically.
+ It is essentially a text document that contains all the instructions that a
+ user may use to create an image from the command line
+# this is a comment-line
+    RUN echo hello
+RUN echo world
+
+# this is a comment-line
+RUN echo hello
+RUN echo world
